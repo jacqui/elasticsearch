@@ -3,3 +3,10 @@ path:
   logs: /data/log
   plugins: /data/plugins
   work: /data/work
+index:
+  mapping:
+    ignore_malformed: true
+    analyzer:
+      default:
+        type: keyword
+    
