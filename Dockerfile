@@ -1,11 +1,13 @@
 #
-# ElasticSearch Dockerfile
+# ElasticSearch Dockerfile: forked to add some index settings to the config
 #
-# https://github.com/dockerfile/elasticsearch
+# https://github.com/jacqui/elasticsearch
 #
 
 # Pull base image.
 FROM dockerfile/java
+
+MAINTAINER jacqui
 
 # Install ElasticSearch.
 RUN \
